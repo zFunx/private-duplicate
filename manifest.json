@@ -3,6 +3,9 @@
   "name": "Private Duplicate",
   "version": "1.0",
   "description": "Open current page in Incognito via icon, context menu or shortcut",
+  "icons": {
+    "128": "images/icon-128.png"
+  },
   "permissions": [
     "tabs",
     "contextMenus"
