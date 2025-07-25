@@ -24,7 +24,7 @@ chrome.commands.onCommand.addListener((command) => {
 
 function openInIncognito(url) {
   chrome.windows.create({
-    url: url,
+    url,
     incognito: true
   });
 }
